@@ -30,11 +30,11 @@ public class Firm
          "555-7282");
       
      //3 Write the code to award a bonus of 500 to Elliot
-      staffList[0].
+      ((Executive)staffList[0]).awardBonus(500);
       
       //4 Write the code to add 40 hours to Dr. Cox
-      
-   
+
+      ((Hourly)staffList[3]).addHours(40);
 
    //-----------------------------------------------------------------
    //  Pays all staff members.
