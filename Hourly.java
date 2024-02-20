@@ -11,8 +11,7 @@ public class Hourly extends Employee
    //-----------------------------------------------------------------
    //  Sets up this hourly employee using the specified information.
    //-----------------------------------------------------------------
-   public Hourly (String eName, String eAddress, String ePhone,
-                  String socSecNumber, double rate)
+   public Hourly (String eName, String eAddress, String ePhone, String socSecNumber, double rate)
    {
       super (eName, eAddress, ePhone, socSecNumber, rate);
 
