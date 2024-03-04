@@ -14,9 +14,11 @@ public void addSales(double totSales){
 }
 
 public double pay(){
-       
+
+       double payment = super.pay() +
+               totalSales = 0;
 }
 
 
 
-}
+
